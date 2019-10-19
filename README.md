@@ -8,9 +8,9 @@ The data provided contains locational information and the corresponding wifi-fin
 
 The data is split into three datasets varying in the way of data collection and data provided. Each dataset contains the following:
 
-    'Train': Is used in model training phase. Contains almost 20k observations measured on predefined positions throughout the campus. In addition to the exact location and WAP signals measured columns are provided identifying the building, user, and phone ('BUILDINGID', 'USERID', 'PHONEID') are provided.
-    'Validation': Is considered to validate the models trained with unseen observations. Covers over 1k observations but provides no additional columns. Observations in this dataset have been taken randomly throughout the campus to simulate real-world data. Furthermore, it has to be mentioned that the validation set contains several observations taken in areas not covered by the trainset.
-    'Test': This dataset is not available through training and validation phase since it is considered to test the best models identified before. Likewise, the testset includes only real-world data to evaluate its positioning accuracy in a real-world setup.
+   * 'Train': Is used in model training phase. Contains almost 20k observations measured on predefined positions throughout the campus. In addition to the exact location and WAP signals measured columns are provided identifying the building, user, and phone ('BUILDINGID', 'USERID', 'PHONEID') are provided.
+   * 'Validation': Is considered to validate the models trained with unseen observations. Covers over 1k observations but provides no additional columns. Observations in this dataset have been taken randomly throughout the campus to simulate real-world data. Furthermore, it has to be mentioned that the validation set contains several observations taken in areas not covered by the trainset.
+   * 'Test': This dataset is not available through training and validation phase since it is considered to test the best models identified before. Likewise, the testset includes only real-world data to evaluate its positioning accuracy in a real-world setup.
 
 
 _NOTE: if a jupyter notebook script doesn't work, copy the url, go into https://nbviewer.jupyter.org/ and paste it on the site._
